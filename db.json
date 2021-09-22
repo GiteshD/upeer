@@ -1,0 +1,24 @@
+{
+  "heros": [
+
+    {
+      "id": 101,
+      "name": "Steve",
+      "alias": "Captain America",
+      "powers": ["agility", "strength", "speed"]
+    },
+    {
+      "id": 102,
+      "name": "Batman",
+      "alias": "Bruce",
+      "powers" : ["rich", "detective"]
+    },
+
+    {
+      "id": 103,
+      "name": "Superman",
+      "alias": "Clark",
+      "powers" : ["flight", "x-ray vision", "heat vision", "infrared", "bluetooth"]
+    }
+  ]
+}
