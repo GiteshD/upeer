@@ -3,8 +3,8 @@
 
     {
       "id": 101,
-      "name": "Steve",
-      "alias": "Captain America",
+      "name": "Captain America",
+      "alias": "Steve",
       "powers": ["agility", "strength", "speed"]
     },
     {
