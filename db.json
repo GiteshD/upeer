@@ -59,4 +59,84 @@
       }
     ]
   }
+  {
+  "lender": {
+    "id": 1,
+    "firstName": "Lavanya",
+    "lastName": "Reddy",
+    "verified": true,
+    "income": 20000,
+    "address": {
+      "city": "Hyd",
+      "state": "Telagana",
+      "countryCode": "IN"
+    },
+    "kyc": {
+      "adhaar": true,
+      "pan": true
+    },
+    "investments": [
+      {
+        "Id": "#AD890",
+        "Date": "2022-09-04",
+        "Borrower": "Technology Labs",
+        "Risk": "Low",
+        "Amount": "3000",
+        "Loan_type": "Home Loan",
+        "Term": "6 months",
+        "Status": "Paid",
+        "Interest_rate": "13.1%",
+        "Country":"India"
+      },
+      {
+        "Id": "#AD890",
+        "Date": "2022-09-04",
+        "Borrower": "Ramya Vagdevi",
+        "Risk": "Low",
+        "Amount": "3000",
+        "Loan_type": "Home Loan",
+        "Term": "6 months",
+        "Status": "In process",
+        "Interest_rate": "13.1%",
+        "Country":"India"
+      },
+      {
+        "Id": "#AD890",
+        "Date": "2022-09-04",
+        "Borrower": "Alekhya Ramoju",
+        "Risk": "Low",
+        "Amount": "200000",
+        "Loan_type": "Educational Loan",
+        "Term": "6 months",
+        "Status": "Scheduled",
+        "Interest_rate": "13.1%",
+        "Country":"India"
+      },
+      {
+        "Id": "#AD890",
+        "Date": "2022-09-04",
+        "Borrower": "Technology Labs",
+        "Risk": "Low",
+        "Amount": "3000",
+        "Loan_type": "Home Loan",
+        "Term": "6 months",
+        "Status": "Paid",
+        "Interest_rate": "13.1%",
+        "Country":"India"
+      },
+      {
+        "Id": "#AD890",
+        "Date": "2022-09-04",
+        "Borrower": "Technology Labs",
+        "Risk": "Low",
+        "Amount": "3000",
+        "Loan_type": "Home Loan",
+        "Term": "6 months",
+        "Status": "Paid",
+        "Interest_rate": "13.1%",
+        "Country":"India"
+      }
+    ]
+  }
+}
 }
