@@ -63,16 +63,10 @@
     "id": 1,
     "firstName": "Lavanya",
     "lastName": "Reddy",
-    "verified": true,
-    "income": 20000,
     "address": {
       "city": "Hyd",
       "state": "Telagana",
       "countryCode": "IN"
-    },
-    "kyc": {
-      "adhaar": true,
-      "pan": true
     },
     "investments": [
       {
