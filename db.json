@@ -78,7 +78,7 @@
         "loanType": "Home Loan",
         "term": "6 months",
         "status": "Paid",
-        "interestRate": "13.1%",
+        "interestRate": "13.1",
         "country":"India"
       },
       {
@@ -90,7 +90,7 @@
         "loanType": "Home Loan",
         "term": "6 months",
         "status": "In process",
-        "interestRate": "13.1%",
+        "interestRate": "13.1",
         "country":"India"
       },
       {
@@ -102,7 +102,7 @@
         "loanType": "Educational Loan",
         "term": "6 months",
         "status": "Scheduled",
-        "interestRate": "13.1%",
+        "interestRate": "13.1",
         "country":"India"
       },
       {
@@ -114,7 +114,7 @@
         "loanType": "Home Loan",
         "term": "6 months",
         "status": "Paid",
-        "interestRate": "13.1%",
+        "interestRate": "13.1",
         "country":"India"
       },
       {
@@ -126,7 +126,7 @@
         "loanType": "Home Loan",
         "term": "6 months",
         "status": "Paid",
-        "interestRate": "13.1%",
+        "interestRate": "13.1",
         "country":"India"
       }
     ]
@@ -138,7 +138,7 @@
     "amount": "130000",
     "loanType": "Company Loan",
     "term": "6 months",
-    "interestRate": "13.1%",
+    "interestRate": "13.1",
     "country": "India"
   },
   {
@@ -148,7 +148,7 @@
     "amount": "100500",
     "loanType": "Home Loan",
     "term": "6 months",
-    "interestRate": "13.1%",
+    "interestRate": "13.1",
     "country": "India"
   },
   {
@@ -158,7 +158,7 @@
     "amount": "100500",
     "loanType": "Home Loan",
     "term": "9 months",
-    "interestRate": "13.2%",
+    "interestRate": "13.2",
     "country": "India"
   },
   {
@@ -168,7 +168,7 @@
     "amount": "100500",
     "loanType": "Company Expansion",
     "term": "6 months",
-    "interestRate": "13.2%",
+    "interestRate": "13.2",
     "country": "India"
   },
   {
@@ -178,7 +178,7 @@
     "amount": "100500",
     "loanType": "Company Expansion",
     "term": "6 months",
-    "interestRate": "13.2%",
+    "interestRate": "13.2",
     "country": "India"
   },
   {
@@ -188,7 +188,7 @@
     "amount": "130000",
     "loanType": "Company Loan",
     "term": "6 months",
-    "interestRate": "13.1%",
+    "interestRate": "13.1",
     "country": "India"
   },
   {
@@ -198,7 +198,7 @@
     "amount": "100500",
     "loanType": "Home Loan",
     "term": "6 months",
-    "interestRate": "13.1%",
+    "interestRate": "13.1",
     "country": "India"
   },
   {
@@ -208,7 +208,7 @@
     "amount": "100500",
     "loanType": "Home Loan",
     "term": "9 months",
-    "interestRate": "13.2%",
+    "interestRate": "13.2",
     "country": "India"
   },
   {
@@ -218,7 +218,7 @@
     "amount": "100500",
     "loanType": "Company Expansion",
     "term": "6 months",
-    "interestRate": "13.2%",
+    "interestRate": "13.2",
     "country": "India"
   },
   {
@@ -228,7 +228,7 @@
     "amount": "100500",
     "loanType": "Company Expansion",
     "term": "6 months",
-    "interestRate": "13.2%",
+    "interestRate": "13.2",
     "country": "India"
   }
 ]
