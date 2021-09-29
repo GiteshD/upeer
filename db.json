@@ -137,4 +137,108 @@
       }
     ]
   }
+},
+  "investment_opportunities":[ {
+    "Id": "#AD890",
+    "Borrower": "Technology Labs",
+    "Risk": "Low",
+    "Amount": "130000",
+    "Loan_type": "Company Loan",
+    "Term": "6 months",
+    "Interest_rate": "13.1%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD653",
+    "Borrower": "John Wick",
+    "Risk": "High",
+    "Amount": "100500",
+    "Loan_type": "Home Loan",
+    "Term": "6 months",
+    "Interest_rate": "13.1%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD769",
+    "Borrower": "Aarya Devarla",
+    "Risk": "Medium",
+    "Amount": "100500",
+    "Loan_type": "Home Loan",
+    "Term": "9 months",
+    "Interest_rate": "13.2%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD354",
+    "Borrower": "Futurism Technologies",
+    "Risk": "Medium",
+    "Amount": "100500",
+    "Loan_type": "Company Expansion",
+    "Term": "6 months",
+    "Interest_rate": "13.2%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD521",
+    "Borrower": "Nomad Solutions",
+    "Risk": "Medium",
+    "Amount": "100500",
+    "Loan_type": "Company Expansion",
+    "Term": "6 months",
+    "Interest_rate": "13.2%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD502",
+    "Borrower": "Technology Labs",
+    "Risk": "Low",
+    "Amount": "130000",
+    "Loan_type": "Company Loan",
+    "Term": "6 months",
+    "Interest_rate": "13.1%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD490",
+    "Borrower": "John Wick",
+    "Risk": "High",
+    "Amount": "100500",
+    "Loan_type": "Home Loan",
+    "Term": "6 months",
+    "Interest_rate": "13.1%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD451",
+    "Borrower": "Aarya Devarla",
+    "Risk": "Medium",
+    "Amount": "100500",
+    "Loan_type": "Home Loan",
+    "Term": "9 months",
+    "Interest_rate": "13.2%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD354",
+    "Borrower": "Futurism Technologies",
+    "Risk": "Medium",
+    "Amount": "100500",
+    "Loan_type": "Company Expansion",
+    "Term": "6 months",
+    "Interest_rate": "13.2%",
+    "Country": "India"
+  },
+  {
+    "Id": "#AD432",
+    "Borrower": "Nomad Solutions",
+    "Risk": "Medium",
+    "Amount": "100500",
+    "Loan_type": "Company Expansion",
+    "Term": "6 months",
+    "Interest_rate": "13.2%",
+    "Country": "India"
+  }
+
+
+]
 }
