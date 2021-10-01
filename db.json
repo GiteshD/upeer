@@ -66,6 +66,7 @@
       "state":"Telagana",
       "countryCode":"IN"
     },
+    "availableBalance": 501235.75,
     "riskScore": 750,
     "totalInvestment": {
       "rate": -14.5,
