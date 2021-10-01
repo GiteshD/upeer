@@ -66,6 +66,23 @@
       "state":"Telagana",
       "countryCode":"IN"
     },
+    "riskScore": 750,
+    "totalInvestment": {
+      "rate": -14.5,
+      "amount": 166312.62
+    },
+    "presentValue": {
+      "rate": 14.5,
+      "amount": 176312.62
+    },
+    "cagr": {
+      "rate": -4.2,
+      "total": 17.61
+    },
+    "projectedInvestment": {
+      "amounts": [500, 700, 900, 1500],
+      "years": ["2019", "2020", "Today", "2022"]
+    },
     "investments":[
       {
         "id":"#AD890",
