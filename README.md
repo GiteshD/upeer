@@ -2,4 +2,4 @@
 
 A dummy JSON Server for Sample API
 
-https://my-json-server.typicode.com/GiteshD/json_server
+https://my-json-server.typicode.com/GiteshD/upeer
