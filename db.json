@@ -248,5 +248,270 @@
       "interestRate":13.2,
       "country":"India"
     }
-  ]
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Alan",
+      "lastName": "Walker",
+      "availableBalance": 82895.65,
+      "riskScore": 752,
+      "verified": true,
+      "income": 20000,
+      "address": {
+        "city": "Hyderabad",
+        "state": "Telagana",
+        "countryCode": "IN"
+      },
+      "kyc": {
+        "adhaar": true,
+        "pan": true
+      },
+      "lender": true
+    }
+  ],
+  "investments": [
+    {
+      "id": "IN00001",
+      "userId": 1,
+      "amount": 5000,
+      "date": "2021-10-04",
+      "status": "Scheduled",
+      "loanId": "AD4101"
+    },
+    {
+      "id": "IN00002",
+      "userId": 1,
+      "amount": 6000,
+      "date": "2021-10-04",
+      "status": "In process",
+      "loanId": "AD4102"
+    },
+    {
+      "id": "IN00003",
+      "userId": 1,
+      "amount": 5000,
+      "date": "2021-10-04",
+      "status": "Paid",
+      "loanId": "AD4103"
+    }
+  ],
+  "loans": [
+    {
+      "id": "AD4101",
+      "borrower": {
+        "id": 101,
+        "firstName": "John",
+        "lastName": "Doe",
+        "verified": true,
+        "income": 20000,
+        "address": {
+          "city": "Hyderabad",
+          "state": "Telagana",
+          "countryCode": "IN"
+        },
+        "riskScore": 550,
+        "kyc": {
+          "adhaar": true,
+          "pan": true
+        }
+      },
+      "risk": "Low",
+      "type": "Home Loan",
+      "interestRate": 12.8,
+      "loanAgreement": false,
+      "loanAmount": 150000,
+      "availableLoanAmount": 80000,
+      "monthlyPayment": 11790,
+      "issueDate": "2021-08-04",
+      "closingDate": "2021-08-04",
+      "initialTerm": "9 Months",
+      "amortizationMethod": "Interest only",
+      "collateral": "Manreta LLC",
+      "collateralValue": 81895.64,
+      "loanValue": 60,
+      "emiSchedule": [
+        {
+          "date": "2021-08-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        },
+        {
+          "date": "2021-09-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        },
+        {
+          "date": "2021-10-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        }
+      ],
+      "description": "\"MO Garden\" is a modern multi-apartment house project, being developed in the Pilaitė district in Vilnius. During the first construction phase, 73 apartments will be built, of which 41 apartments have already been sold.\n\n\"MO Garden\" are low-rise construction houses with 2-4 room apartments with terraces that are adapted to the needs of a modern person or family in a unique place of Vilnius, surrounded by nature. It is a balance between the rhythm of the city and the tranquility of nature. An indoor park with children's playgrounds is planned in the “MO Garden” settlement, next to which there is a forest and ponds.",
+      "summary": "The borrower in the project “MO Garden” is a real estate development company Manreta LLC. The loan originator is Pakrantes bustas LLC. Both companies work under the SIB Group name. The partner of SIB Group's project “MO Garden” for project management."
+    },
+    {
+      "id": "AD4102",
+      "borrower": {
+        "id": 101,
+        "firstName": "John",
+        "lastName": "Doe",
+        "verified": true,
+        "income": 20000,
+        "address": {
+          "city": "Hyderabad",
+          "state": "Telagana",
+          "countryCode": "IN"
+        },
+        "riskScore": 550,
+        "kyc": {
+          "adhaar": true,
+          "pan": true
+        }
+      },
+      "risk": "High",
+      "type": "Education Loan",
+      "interestRate": 12.8,
+      "loanAgreement": false,
+      "loanAmount": 150000,
+      "availableLoanAmount": 80000,
+      "monthlyPayment": 11790,
+      "issueDate": "2021-08-04",
+      "closingDate": "2021-08-04",
+      "initialTerm": "9 Months",
+      "amortizationMethod": "Interest only",
+      "collateral": "Manreta LLC",
+      "collateralValue": 81895.64,
+      "loanValue": 60,
+      "emiSchedule": [
+        {
+          "date": "2021-08-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        },
+        {
+          "date": "2021-09-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        },
+        {
+          "date": "2021-10-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        }
+      ],
+      "description": "\"MO Garden\" is a modern multi-apartment house project, being developed in the Pilaitė district in Vilnius. During the first construction phase, 73 apartments will be built, of which 41 apartments have already been sold.\n\n\"MO Garden\" are low-rise construction houses with 2-4 room apartments with terraces that are adapted to the needs of a modern person or family in a unique place of Vilnius, surrounded by nature. It is a balance between the rhythm of the city and the tranquility of nature. An indoor park with children's playgrounds is planned in the “MO Garden” settlement, next to which there is a forest and ponds.",
+      "summary": "The borrower in the project “MO Garden” is a real estate development company Manreta LLC. The loan originator is Pakrantes bustas LLC. Both companies work under the SIB Group name. The partner of SIB Group's project “MO Garden” for project management."
+    },
+    {
+      "id": "AD4103",
+      "borrower": {
+        "id": 101,
+        "firstName": "John",
+        "lastName": "Doe",
+        "verified": true,
+        "income": 20000,
+        "address": {
+          "city": "Hyderabad",
+          "state": "Telagana",
+          "countryCode": "IN"
+        },
+        "riskScore": 550,
+        "kyc": {
+          "adhaar": true,
+          "pan": true
+        }
+      },
+      "risk": "Medium",
+      "type": "Personal Loan",
+      "loanAgreement": false,
+      "loanAmount": 150000,
+      "availableLoanAmount": 80000,
+      "monthlyPayment": 11790,
+      "issueDate": "2021-08-04",
+      "closingDate": "2021-08-04",
+      "initialTerm": "9 Months",
+      "amortizationMethod": "Interest only",
+      "collateral": "Manreta LLC",
+      "collateralValue": 81895.64,
+      "loanValue": 60,
+      "emiSchedule": [
+        {
+          "date": "2021-08-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        },
+        {
+          "date": "2021-09-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        },
+        {
+          "date": "2021-10-04",
+          "principal": 12345,
+          "interest": 150,
+          "total": 30000,
+          "status": "scheduled"
+        }
+      ],
+      "description": "\"MO Garden\" is a modern multi-apartment house project, being developed in the Pilaitė district in Vilnius. During the first construction phase, 73 apartments will be built, of which 41 apartments have already been sold.\n\n\"MO Garden\" are low-rise construction houses with 2-4 room apartments with terraces that are adapted to the needs of a modern person or family in a unique place of Vilnius, surrounded by nature. It is a balance between the rhythm of the city and the tranquility of nature. An indoor park with children's playgrounds is planned in the “MO Garden” settlement, next to which there is a forest and ponds.",
+      "summary": "The borrower in the project “MO Garden” is a real estate development company Manreta LLC. The loan originator is Pakrantes bustas LLC. Both companies work under the SIB Group name. The partner of SIB Group's project “MO Garden” for project management."
+    }
+  ],
+  "investment-summary": {
+    "id": "investment-summary",
+    "userId": 1,
+    "total": 25000,
+    "inProcess": 200,
+    "scheduled": 400,
+    "completed": 24400,
+    "monthlyInvestments": [
+      {
+        "total": 500,
+        "month": "Jan",
+        "year": 2021
+      },
+      {
+        "total": 700,
+        "month": "Feb",
+        "year": 2021
+      },
+      {
+        "total": 500,
+        "month": "Mar",
+        "year": 2021
+      },
+      {
+        "total": 900,
+        "month": "Apr",
+        "year": 2021
+      },
+      {
+        "total": 1000,
+        "month": "May",
+        "year": 2021
+      },
+      {
+        "total": 500,
+        "month": "Jun",
+        "year": 2021
+      }
+    ]
+  }
 }
