@@ -225,87 +225,93 @@
       "summary": "The borrower in the project “MO Garden” is a real estate development company Manreta LLC. The loan originator is Pakrantes bustas LLC. Both companies work under the SIB Group name. The partner of SIB Group's project “MO Garden” for project management."
     }
   ],
-  "investment-summary": {
-    "id": "investment-summary",
-    "userId": 1,
-    "total": 25000,
-    "inProcess": 200,
-    "scheduled": 400,
-    "completed": 24400,
-    "monthlyInvestments": [
-      {
-        "total": 500,
-        "month": "Jan",
-        "year": 2021
+  "reports": [
+    {
+      "id": "investment-summary",
+      "userId": 1,
+      "total": 25000,
+      "inProcess": 200,
+      "scheduled": 400,
+      "completed": 24400,
+      "monthlyInvestments": [
+        {
+          "total": 500,
+          "month": "Jan",
+          "year": 2021
+        },
+        {
+          "total": 700,
+          "month": "Feb",
+          "year": 2021
+        },
+        {
+          "total": 500,
+          "month": "Mar",
+          "year": 2021
+        },
+        {
+          "total": 900,
+          "month": "Apr",
+          "year": 2021
+        },
+        {
+          "total": 1000,
+          "month": "May",
+          "year": 2021
+        },
+        {
+          "total": 500,
+          "month": "Jun",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "investment-projected",
+      "data": [
+        {
+          "amount": 500,
+          "year": "2019"
+        },
+        {
+          "amount": 700,
+          "year": "2020"
+        },
+        {
+          "amount": 900,
+          "year": "Today"
+        },
+        {
+          "amount": 1500,
+          "year": "2021"
+        },
+        {
+          "amount": 2000,
+          "year": "2022"
+        },
+        {
+          "amount": 2800,
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "id": "investment-charts",
+      "totalInvestment": {
+        "rate": 10,
+        "total": 50000,
+        "data": [10, 3, 5, 2, 7, 10]
       },
-      {
-        "total": 700,
-        "month": "Feb",
-        "year": 2021
+      "presentValue": {
+        "rate": -10,
+        "total": -10,
+        "data": [10, 3, 5, 2, 7, 10]
       },
-      {
-        "total": 500,
-        "month": "Mar",
-        "year": 2021
-      },
-      {
-        "total": 900,
-        "month": "Apr",
-        "year": 2021
-      },
-      {
-        "total": 1000,
-        "month": "May",
-        "year": 2021
-      },
-      {
-        "total": 500,
-        "month": "Jun",
-        "year": 2021
+      "cagr": {
+        "rate": -10,
+        "total": 35000,
+        "data": [10, 3, 5, 3, 2]
       }
-    ]
-  },
-  "investment-projected": [
-    {
-      "amount": 500,
-      "year": "2019"
-    },
-    {
-      "amount": 700,
-      "year": "2020"
-    },
-    {
-      "amount": 900,
-      "year": "Today"
-    },
-    {
-      "amount": 1500,
-      "year": "2021"
-    },
-    {
-      "amount": 2000,
-      "year": "2022"
-    },
-    {
-      "amount": 2800,
-      "year": "2023"
     }
-  ],
-  "investment-charts": {
-    "totalInvestment": {
-      "rate": 10,
-      "total": 50000,
-      "data": [10, 3, 5, 2, 7, 10]
-    },
-    "presentValue": {
-      "rate": -10,
-      "total": -10,
-      "data": [10, 3, 5, 2, 7, 10]
-    },
-    "cagr": {
-      "rate": -10,
-      "total": 35000,
-      "data": [10, 3, 5, 3, 2]
-    }
-  }
+  ]
 }
